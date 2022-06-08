@@ -2,7 +2,7 @@ import AsyncStorage                         from '@react-native-async-storage/as
 
 
 
-const URL = "http://proj2.ruppin-tech.co.il/api/";
+const URL = "your URL";
 const DAILY_VITALS = 'vitals/dailyVitals/';
 
 export const getUserDayVitals = async () => {
