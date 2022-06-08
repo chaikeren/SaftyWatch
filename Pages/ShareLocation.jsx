@@ -13,7 +13,7 @@ import MapViewDirections from 'react-native-maps-directions';
 
 
 const LOCKED_CONTACTS_KEY = 'lockedContactsToShare';
-const GOOGLE_PLACES_API_KEY = 'AIzaSyASlpr3b29YDWZDRODQ5aCZJsfZ6UgPPH4'; // never save your real api key in a snack!
+const GOOGLE_PLACES_API_KEY = 'Google api key'; 
 
 // create a component
 export default function ShareLocation({navigation, route}) {
