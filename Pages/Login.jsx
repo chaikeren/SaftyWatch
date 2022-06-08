@@ -52,7 +52,7 @@ export default function Login({navigation}) {
       //   await AsyncStorage.clear();
       
 
-      let res = await fetch("http://proj2.ruppin-tech.co.il/api/users/login", {
+      let res = await fetch("your path", {
         method: 'POST',
         headers: {
           'content-type': 'application/json',
