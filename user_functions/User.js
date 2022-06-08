@@ -2,7 +2,7 @@ import AsyncStorage                         from '@react-native-async-storage/as
 
 
 const KEYS = ['WatchMeUserCredentials', 'username'];
-const URL = "http://proj2.ruppin-tech.co.il/api/";
+const URL = "your URL";
 const CHECK_USER = 'users/checkUser';
 
 const validateUserToken = async (username, token, user) => {
