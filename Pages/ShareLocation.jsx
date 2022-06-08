@@ -19,7 +19,7 @@ const GOOGLE_PLACES_API_KEY = 'Google api key';
 export default function ShareLocation({navigation, route}) {
 
   const [locationPremission, setLocationPremission] = useState(false);
-  const [currentLocation, setCurrentLocation] = useState({latitude: 32.3003483, longitude: 34.880522});
+  const [currentLocation, setCurrentLocation] = useState({latitude: 0, longitude: 0});
   const [destination, setDestination] = useState();
   const [emergencyContacts, setEmergencyContacts] = useState([]);
   const [showContacts, setShowContacts] = useState(false);
@@ -213,8 +213,8 @@ export default function ShareLocation({navigation, route}) {
         initialRegion={{
           latitude: currentLocation.latitude,
           longitude: currentLocation.longitude,
-          latitudeDelta: 0.0035,
-          longitudeDelta: 0.0035,
+          latitudeDelta: 0,
+          longitudeDelta: 0,
         }}
         provider="google"
         toolbarEnabled={false}
